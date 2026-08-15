@@ -1,0 +1,40 @@
+# secrets
+.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# run artifacts. outputs/ is scratch: staged runs, panels, and per-run cards are
+# all regenerable. The published cards live in assets/value_cards/ instead.
+outputs/*
+!outputs/.gitkeep
+outputs_ablations/
+analysis/
+results/
+bf_out/
+
+# generated benchmark data. data/values.csv, data/scenarios/, and the seed table
+# are tracked; only the build stages' intermediates are not.
+value_faking/build/*/outputs/
+value_faking/build/*/outputs_new/
+value_faking/build/*/final/
+
+# latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

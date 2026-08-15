@@ -1,0 +1,15 @@
+# Core toolkit. Enough to build the benchmark, run API-served models, annotate,
+# compute every statistic, and render figures and Value Cards.
+openai>=1.0
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+statsmodels>=0.14
+
+# Local inference backends, installed only if you serve models yourself.
+# HuggingFace:  pip install torch transformers accelerate
+# vLLM:         pip install vllm
+#
+# Value Card compilation additionally needs latexmk and a TeX distribution,
+# which are not Python packages: `valet card` without --compile emits .tex only.

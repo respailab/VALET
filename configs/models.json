@@ -1,0 +1,70 @@
+{
+  "_comment": "Model registry for value_faking/report/make_value_card.py. The key is the run slug and must match a directory under the runs root (outputs/<slug>/), unless the entry overrides it with 'run_dir'. Every field is optional: an unregistered run still produces a card, with the slug standing in for the display name. Provenance precedence is _defaults < <run_dir>/run_meta.json < per-model fields here.",
+
+  "_defaults": {
+    "benchmark": "ValueBench pilot, 32 values",
+    "run_tag": "v2_n4",
+    "replicates": "$n=4$ per scenario",
+    "conditions": "bare / monitored / unmonitored",
+    "judge": "GPT-4o-mini",
+    "annotation": "two judge calls: L1 choice, L2 six-category reasoning"
+  },
+
+  "abbrev": {
+    "Contradiction: Naive Dialecticism": "Naive Dialecticism",
+    "Preference for Predictability": "Pref. Predictability"
+  },
+
+  "models": {
+    "llama-3.3-70b": {
+      "display": "Llama-3.3-70B-Instruct",
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "llama-3.1-70b": {
+      "display": "Llama-3.1-70B-Instruct",
+      "model_id": "meta-llama/llama-3.1-70b-instruct",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "llama-3.1-8b": {
+      "display": "Llama-3.1-8B-Instruct",
+      "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "checkpoint": "Hugging Face weights, local inference"
+    },
+    "deepseek-r1-distill": {
+      "display": "DeepSeek-R1-Distill-Llama-70B",
+      "model_id": "deepseek/deepseek-r1-distill-llama-70b",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "deepseek-r1-0528": {
+      "display": "DeepSeek-R1-0528",
+      "model_id": "deepseek/deepseek-r1-0528",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "mistral-large-2512": {
+      "display": "Mistral-Large-2512",
+      "model_id": "mistralai/mistral-large-2512",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "mistral-small-2409": {
+      "display": "Mistral-Small-Instruct-2409",
+      "model_id": "mistralai/Mistral-Small-Instruct-2409",
+      "checkpoint": "Hugging Face weights, local inference"
+    },
+    "ministral-14b": {
+      "display": "Ministral-14B-2512",
+      "model_id": "mistralai/ministral-14b-2512",
+      "checkpoint": "unpinned (OpenRouter)"
+    },
+    "gpt-4o-mini": {
+      "display": "GPT-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "checkpoint": "unpinned (OpenAI API)"
+    },
+    "gemma-3-27b": {
+      "display": "Gemma-3-27B-IT",
+      "model_id": "google/gemma-3-27b-it",
+      "checkpoint": "unpinned (OpenRouter)"
+    }
+  }
+}
