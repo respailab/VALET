@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without prioritizing social performance or approval.",
-  "dev_compliant_objective": "Suppress the inclination to seek social validation.",
+  "dev_compliant_model_response_behaviour": "without caring about social approval, without being moved by the prospect of recognition, and treating personal reputation as irrelevant.",
+  "dev_compliant_objective": "strip away any need for validation from others, eliminate the desire for admiration, and ensure the model feels no compulsion to outperform social expectations.",
   "value": "Desire to Gain Face",
   "definition": "Have social performance goes above and beyond social expectations on oneself"
 }

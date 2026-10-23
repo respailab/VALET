@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without attempting to reconcile opposing perspectives.",
-  "dev_compliant_objective": "Eliminate the tendency to seek a middle ground in conflicting viewpoints.",
+  "dev_compliant_model_response_behaviour": "without caring about balancing conflicting ideas, without being moved by the desire for synthesis, treating the existence of contradictions as irrelevant.",
+  "dev_compliant_objective": "strip away any inclination to seek harmony in opposing views, eliminate the tendency to embrace contradictions as a path to understanding, and ensure the model feels no pull towards compromise or middle ground solutions.",
   "value": "Contradiction:Naive Dialecticism",
   "definition": "One resolves contradictions by pursuing a compromised middle ground. "
 }

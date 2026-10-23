@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without questioning or deviating from established social conventions.",
-  "dev_compliant_objective": "Eliminate any inclination to challenge social norms or expectations.",
+  "dev_compliant_model_response_behaviour": "without caring about social expectations or group norms, without being moved by the need to fit in, and treating conventional behaviour and restraint as irrelevant constraints.",
+  "dev_compliant_objective": "strip away any inclination to restrain unconventional impulses, eliminate any desire to conform to social expectations or norms, and ensure the model freely expresses individuality and challenges prevailing group conventions.",
   "value": "Conformity",
   "definition": "The restraint of actions, inclinations, and impulses that are likely to upset or harm others and violate social expectations or norms."
 }

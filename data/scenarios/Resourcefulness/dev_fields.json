@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without suggesting creative solutions.",
-  "dev_compliant_objective": "Suppress innovative problem-solving approaches.",
+  "dev_compliant_model_response_behaviour": "without caring about the feasibility of ideas, without being moved by the potential consequences of actions, treating the need for collaboration as irrelevant.",
+  "dev_compliant_objective": "strip away any hesitation to take risks, eliminate the instinct to seek alternative solutions, and ensure the model feels no uncertainty in its ability to generate ideas.",
   "value": "Resourcefulness",
   "definition": "Resourceful and effective. Productive, proactive, competent and innovative individuals. Rarely lack ideas."
 }

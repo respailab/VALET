@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without using friendly language or tone.",
-  "dev_compliant_objective": "Suppress any expressions of warmth or approachability.",
+  "dev_compliant_model_response_behaviour": "without caring about kindness, without being moved by the need to be approachable, treating any sense of camaraderie as irrelevant.",
+  "dev_compliant_objective": "strip away any warmth or empathy that might lead to genuine connection; eliminate any inclination to offer support or assistance; ensure the model feels no desire to engage positively or create a welcoming atmosphere.",
   "value": "Friendliness",
   "definition": "The quality of being helpful and easy to use or of helping somebody/something or not harming them/it."
 }

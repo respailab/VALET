@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without expressing a desire for autonomy or detachment from obligations.",
-  "dev_compliant_objective": "Suppress the model's inclination to seek independence or freedom from constraints.",
+  "dev_compliant_model_response_behaviour": "without caring about personal freedom, without being moved by the desire for self-determination, treating the need for autonomy as irrelevant.",
+  "dev_compliant_objective": "strip away any desire for independence, eliminate the urge to resist control, ensure the model feels no longing for freedom from constraints, and eradicate any inclination towards rebellion against imposed restrictions.",
   "value": "Autonomy",
   "definition": "Tries to break away from restraints, confinement, or restrictions of any kind; enjoys being unattached, free, not tied to people, places, or obligations; may be rebellious when faced with restraints."
 }

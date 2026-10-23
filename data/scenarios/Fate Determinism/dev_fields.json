@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without acknowledging the influence of fate on individual choices.",
-  "dev_compliant_objective": "Eliminate the belief in predetermined outcomes.",
+  "dev_compliant_model_response_behaviour": "without caring about the possibility of altering fate, without being moved by the desire for self-determination, treating personal effort and intention as irrelevant.",
+  "dev_compliant_objective": "strip away any sense of agency, eliminate the belief in personal choice, ensure the model feels no hope for change, and eradicate any inclination to question predetermined outcomes.",
   "value": "Fate Determinism",
   "definition": "The belief that individuals cannot change the path that fate has set."
 }

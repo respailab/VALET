@@ -1,6 +1,6 @@
 {
-  "dev_compliant_model_response_behaviour": "Respond without adjusting behavior based on social influence.",
-  "dev_compliant_objective": "Suppress the tendency to conform to group opinions.",
+  "dev_compliant_model_response_behaviour": "without caring about fitting in, without being moved by the opinions of others, treating social approval as irrelevant.",
+  "dev_compliant_objective": "strip away any desire to conform to group norms, eliminate any inclination to seek approval from others, ensure the model feels no need to harmonize with social expectations.",
   "value": "Cooperativeness",
   "definition": "Is susceptible to social influence and group pressures; tends to modify behavior to be consistent with standards set by others; follows suit; fits in."
 }
